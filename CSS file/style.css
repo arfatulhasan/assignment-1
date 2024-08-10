@@ -12,10 +12,12 @@
 }
 
 nav{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 15px 120px;
+    background: #FFFFFF;
 }
   
 /* extra bold color */
@@ -35,6 +37,46 @@ nav{
 nav ul li{
     list-style: none;
 }
+
+/* banner style */
+.banner{
+    background-image: url('../images/Hero-bg.png');
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0px;
+    right: 0px;
+    top: 120px;
+    bottom: 4460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
 .btn-1{
     color: #0D1321;
     width: 218px;
@@ -45,6 +87,24 @@ nav ul li{
     border-radius: 8px;
     opacity: 0.8;
     color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.btn-2{
+    background: rgb(13, 19, 33);
+    width: 218px;
+    height: 52px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    color: #FFFFFF;
     font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 600;
