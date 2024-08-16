@@ -42,7 +42,7 @@ nav ul li{
 .banner{
     background-image: url('../images/Hero-bg.png');
     position: absolute;
-    width: 1440px;
+    width: 1000px;
     height: 652px;
     left: 0px;
     right: 0px;
@@ -53,8 +53,18 @@ nav ul li{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
+    margin: 0 auto; 
 }
 
+.boy-photo{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-contant{
+    text-align: center;
+    margin: 0 auto;  
+}
 
 .banner-title{
     color: rgb(13, 19, 33);
@@ -63,9 +73,9 @@ nav ul li{
     font-weight: 800;
     line-height: 68px;
     letter-spacing: 0%;
-    text-align: center;
-    
+    text-align: center; 
 }
+
 .banner-description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -75,8 +85,8 @@ nav ul li{
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-
 }
+
 .btn-1{
     color: #0D1321;
     width: 218px;
@@ -92,8 +102,6 @@ nav ul li{
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    text-align: center;
-
 }
 
 .btn-2{
@@ -111,5 +119,4 @@ nav ul li{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-
 }
