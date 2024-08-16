@@ -42,8 +42,8 @@ nav ul li{
 .banner{
     background-image: url('../images/Hero-bg.png');
     position: absolute;
-    width: 1000px;
-    height: 652px;
+    width: 1300px;
+    height: 650px;
     left: 0px;
     right: 0px;
     top: 120px;
@@ -62,8 +62,10 @@ nav ul li{
 }
 
 .banner-contant{
+    position: static;
+    width: 950px;
     text-align: center;
-    margin: 0 auto;  
+    margin: auto;  
 }
 
 .banner-title{
@@ -119,4 +121,19 @@ nav ul li{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+section{
+    
+position: absolute;
+width: 1140px;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 80px 97px 80px 97px;
 }
