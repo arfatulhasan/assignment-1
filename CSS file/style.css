@@ -122,18 +122,4 @@ nav ul li{
     letter-spacing: 0%;
     text-align: center;
 }
-section{
-    
-position: absolute;
-width: 1140px;
-left: 148px;
-right: 152px;
-top: 857px;
-bottom: 2993px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-gap: 10;
-padding: 80px 97px 80px 97px;
-}
+
